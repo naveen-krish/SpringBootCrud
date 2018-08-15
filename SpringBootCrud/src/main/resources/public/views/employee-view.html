@@ -1,0 +1,27 @@
+<div class="container pad-top">
+  <table class="table employeetable">
+      <tr>
+          <td><h3>Details for {{employee.name}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Name</td>
+          <td>{{employee.name}}</td>
+      </tr>
+      <tr>
+          <td>Department</td>
+          <td>{{employee.department}}</td>
+      </tr>
+      <tr>
+          <td>DOJ</td>
+          <td>{{employee.doj}}</td>
+      </tr>
+      <tr>
+          <td>Age</td>
+          <td>{{employee.age}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editEmployee({id:employee.id})">Edit</a>
+  </div>
+</div>
